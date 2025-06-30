@@ -12,7 +12,7 @@ subplot(2, 1, 1);
 plot(t, w_m, t, w_m_hat_est, t,  w_m_hat_mid, '--', t,  w_m_hat_min, '-.');
 % NOTE: The line of code above was corrected in a later version.
 % Previously, w_m_hat_est was mistakenly plotted three times under different labels.
-% The error only affects the state estimate subplot in the thesis as the performance indices and delay estimates were correct.
+% The error only affects the state estimate subplots in the thesis as the performance indices and delay estimates were correct.
 % The impact is purely visual and does not affect the conclusions.
 grid on
 ylabel('$\omega_m(t)$', 'Interpreter', 'latex');
