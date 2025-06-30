@@ -3,7 +3,6 @@ close all
 
 % This script is intended to be run after running the Simulink model 'Experiments.slx'
 
-
 % Set default figure and font settings
 set(0, 'DefaultLineLineWidth', 2, 'DefaultAxesFontSize', 28, 'DefaultTextFontSize', 28);
 
