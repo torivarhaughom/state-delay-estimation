@@ -20,7 +20,8 @@ This repository contains the MATLAB scripts and Simulink model used in the maste
 
 - **setup_experiments.m**  
   Initializes variables used in `Experiments.slx`.
-
+  Note: A minor plotting error caused the same state estimate to be plotted multiple times under different labels. The issue was purely visual,      only affecting the state estimate subplots in the Experimental Results chapter of the thesis.
+  
 - **plotting_experiments.m**  
   Generates plots of experimental results. Must be run after `Experiments.slx`.
 
