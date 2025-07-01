@@ -30,3 +30,9 @@ This repository contains the MATLAB scripts and Simulink model used in the maste
 The simulation script and experiment files correspond to the results presented in Chapters 4 and 5 of the thesis.  
 
 
+## Known Typos and Corrections
+The following typos were discovered in the thesis after submission:
+- The identity matrix in the bottom-right block of the LMI in Equation (5.11) was incorrectly written as `I_{2×2}`. It should be `I_{1×1}`.
+
+
+
