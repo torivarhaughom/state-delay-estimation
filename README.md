@@ -20,7 +20,6 @@ This repository contains the MATLAB scripts and Simulink model used in the maste
 
 - **setup_experiments.m**  
   Initializes variables used in `Experiments.slx`.
-  Note: A minor plotting error caused the same state estimate to be plotted multiple times under different labels. The issue was purely visual,      only affecting the state estimate subplots in the Experimental Results chapter of the thesis.
   
 - **plotting_experiments.m**  
   Generates plots of experimental results. Must be run after `Experiments.slx`.
@@ -30,9 +29,10 @@ This repository contains the MATLAB scripts and Simulink model used in the maste
 The simulation script and experiment files correspond to the results presented in Chapters 4 and 5 of the thesis.  
 
 
-## Known Typos and Corrections
-The following typos were discovered in the thesis after submission:
+## Known Typos and Errors in the Thesis
+The following typos and errors were discovered in the thesis after submission:
 - The identity matrix in the bottom-right block of the LMI in Equation (5.11) was incorrectly written as `I_{2×2}`. It should be `I_{1×1}`.
+- A minor plotting error in the file `setup_experiments.m` caused the same state estimate to be plotted multiple times under different labels in Chapter 5. This was a visual issue only and did not affect any experimental data or results.
 
 
 
