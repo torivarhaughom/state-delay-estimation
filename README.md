@@ -32,7 +32,7 @@ The simulation script and experiment files correspond to the results presented i
 ## Known Typos and Errors in the Thesis
 The following typos and errors were discovered in the thesis after submission:
 - The identity matrix in the bottom-right block of the LMI in Equation (5.11) was incorrectly written as `I_{2×2}`. It should be `I_{1×1}`.
-- A minor plotting error in the file `setup_experiments.m` caused the same state estimate to be plotted multiple times under different labels in Chapter 5. This was a visual issue only and did not affect any experimental data or results.
+- A plotting error in the file `setup_experiments.m` caused the same state estimate to be plotted multiple times under different labels in Chapter 5. This only affected the subplots showing the state estimates. The delay estimate subplots, performance indices, and all conclusions remain correct and unaffected.
 
 
 
