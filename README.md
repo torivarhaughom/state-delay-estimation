@@ -1,4 +1,4 @@
-# Extension of Observer Design for Joint State and Input Delay Estimation to MIMO LTI Systems – MATLAB/Simulink Files
+# MATLAB/Simulink Files and Known Typos – Extension of Observer Design for Joint State and Input Delay Estimation to MIMO LTI Systems
 
 This repository contains the MATLAB scripts and Simulink model used in the master's thesis:
 
